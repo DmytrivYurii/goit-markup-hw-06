@@ -17,7 +17,7 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <!-- <header class="navigation">
+    <header class="navigation">
       <div class="headerc container">
         <nav class="navigation-title">
           <a href="./index.html" class="navigation-logo link"
@@ -55,18 +55,27 @@
             </li>
           </ul>
         </address>
+        <button
+          type="button"
+          class="open-menu js-open-menu"
+          aria-expanded="false"
+        >
+          <svg class="open-menu-image" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn data-modal" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
-      <!-- <section class="company">
+      </section>
+      <section class="company">
         <div class="container">
           <h2 class="visually-hidden">About company</h2>
           <ul class="company-list list">
@@ -120,8 +129,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="work">
+      </section>
+      <section class="work">
         <div class="workc container">
           <h2 class="work-subtitle">What are we doing</h2>
           <ul class="work-list list">
@@ -151,8 +160,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="team">
+      </section>
+      <section class="team">
         <div class="teamc container">
           <h2 class="team-subtitle">Our Team</h2>
           <ul class="team-list list">
@@ -326,7 +335,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <section class="customs">
         <div class="container">
           <h2 class="customs-subtext">Customers</h2>
@@ -377,7 +386,7 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-wrap">
         <div class="container-footer">
           <a href="./index.html" class="footer-link link"
@@ -441,7 +450,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <div class="modal-page is-hidden" data-modal>
       <div class="modal-page-open">
         <button type="button" class="btn-close" data-modal-close>
@@ -528,6 +537,83 @@
         </form>
       </div>
     </div>
+    <div class="mobile-menu js-menu-container">
+      <div class="mob-menu-container">
+        <button type="button" class="btn-close" data-modal-close>
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="navigation-title-mob">
+          <ul class="navigation-list-mob list">
+            <li class="navigation-item-mob">
+              <a href="./index.html" class="current navigation-link-mob link"
+                >Studio</a
+              >
+            </li>
+            <li class="navigation-item-mob">
+              <a href="./portfolio.html" class="navigation-link-mob link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation-item-mob">
+              <a href="" class="navigation-link-mob link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mob-bottom">
+          <address class="nav-mob">
+            <ul class="nav-mob-list list">
+              <li class="nav-mob-cont">
+                <a href="mailto:info@devstudio.com" class="tel link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="nav-mob-cont">
+                <a href="tel:+110001111111" class="email-mob link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a href="https://www.instagram.com/" class="icon-mob">
+                <svg class="team-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="https://twitter.com/" class="icon-mob">
+                <svg class="team-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="https://www.facebook.com/" class="icon-mob">
+                <svg class="team-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a href="https://www.linkedin.com/" class="icon-mob">
+                <svg class="team-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>

@@ -1748,6 +1748,7 @@ input[type="email"]::placeholder {
   }
   .company {
     padding: 120px 0;
+    display: flex;
   }
   .company-list {
     display: flex;

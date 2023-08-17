@@ -495,6 +495,7 @@ img {
 }
 .container-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-right: 0px;
 }
@@ -1060,7 +1061,7 @@ input[type="email"]::placeholder {
     display: flex;
     gap: 12px;
     flex-direction: column;
-    margin-left: 121px;
+    margin-left: 80px;
   }
   .navigation-contacts-link {
     color: #434455;
@@ -1113,7 +1114,7 @@ input[type="email"]::placeholder {
   }
 
   .company-item {
-    flex-basis: Calc((100% - 24px) / 2);
+    flex-basis: Calc((100% - 70px) / 2);
     margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -1296,9 +1297,11 @@ input[type="email"]::placeholder {
   }
   .footer-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
     gap: 72px;
+    margin-left: 100px;
   }
   .social-footer {
     display: flex;
@@ -1321,7 +1324,7 @@ input[type="email"]::placeholder {
     display: flex;
     flex-direction: column;
     margin-right: 0px;
-    margin-left: 108px;
+    margin-left: 0px;
     width: 264px;
   }
   .footer-title {
@@ -1338,9 +1341,8 @@ input[type="email"]::placeholder {
     margin: 0;
   }
   .footer-subtext {
-    margin-bottom: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -1348,7 +1350,7 @@ input[type="email"]::placeholder {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 16px;
+    margin: 0px 0px 16px 0px;
   }
   .social-media-footer {
     display: flex;
@@ -1376,14 +1378,17 @@ input[type="email"]::placeholder {
   }
   .email {
     margin-top: 72px;
+    width: 453px;
+    height: 80px;
   }
   .form-footer {
     position: relative;
     display: flex;
     gap: 24px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .email-title {
+    display: flex;
     margin-bottom: 16px;
     color: #ffffff;
     font-family: "Roboto";
@@ -1446,7 +1451,7 @@ input[type="email"]::placeholder {
     background-color: #4d5ae5;
     position: absolute;
     bottom: 8px;
-    right: 135px;
+    right: 25px;
     margin-left: 16px;
     text-align: center;
   }
@@ -1689,6 +1694,7 @@ input[type="email"]::placeholder {
     height: 600px;
     flex-shrink: 0;
     padding: 188px 0;
+    margin: auto;
   }
   .hero-title {
     text-align: center;
@@ -1938,6 +1944,7 @@ input[type="email"]::placeholder {
     font-family: "Raleway", sans-serif;
     width: 100%;
     flex-shrink: 0;
+    margin: auto;
   }
   .footer-wrap {
     display: flex;

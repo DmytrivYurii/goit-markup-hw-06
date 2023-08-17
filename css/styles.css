@@ -37,7 +37,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    
+
   padding: 25px 0;
 }
 .navigation-title {
@@ -932,7 +932,7 @@ input[type="email"]::placeholder {
 }
 
 /* -------------------Menu back----------------------------- */
-.open-menu{
+.open-menu {
   margin: auto;
   margin-right: 0;
 }
@@ -949,7 +949,7 @@ input[type="email"]::placeholder {
   height: 100%;
   overflow: auto;
 }
-.mob-top{
+.mob-top {
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -963,9 +963,9 @@ input[type="email"]::placeholder {
 }
 .current {
 }
-.navigation-link-mobs{
-  color: #404BBF;
-  font-family: 'Roboto' sans-serif;
+.navigation-link-mobs {
+  color: #404bbf;
+  font-family: "Roboto" sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -973,8 +973,8 @@ input[type="email"]::placeholder {
   text-transform: capitalize;
 }
 .navigation-link-mob {
-  color: #2E2F42;
-  font-family: 'Roboto' sans-serif;
+  color: #2e2f42;
+  font-family: "Roboto" sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -995,8 +995,8 @@ input[type="email"]::placeholder {
   margin-bottom: 40px;
 }
 .tel {
-  color: #4D5AE5;
-  font-family: 'Roboto' sans-serif;
+  color: #4d5ae5;
+  font-family: "Roboto" sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -1005,8 +1005,8 @@ input[type="email"]::placeholder {
   text-transform: capitalize;
 }
 .email {
-  color:#434455;
-  font-family: 'Roboto' sans-serif;
+  color: #434455;
+  font-family: "Roboto" sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;

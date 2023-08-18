@@ -1950,6 +1950,7 @@ input[type="email"]::placeholder {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     width: 100%;
+    height: 312px;
     flex-shrink: 0;
     margin: auto;
   }
@@ -2000,6 +2001,7 @@ input[type="email"]::placeholder {
     letter-spacing: 0.02em;
   }
   .social-media-footer {
+    justify-content: center;
   }
   .social-footer-icon {
     display: flex;
@@ -2021,7 +2023,9 @@ input[type="email"]::placeholder {
     background-color: #31d0aa;
   }
   .email {
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
   }
   .form-footer {
     position: relative;

@@ -185,7 +185,6 @@ img {
 }
 .container {
   width: 100%;
-  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -1826,6 +1825,7 @@ input[type="email"]::placeholder {
     display: flex;
     gap: 24px;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .team-name {
     margin-bottom: 8px;
@@ -1951,6 +1951,7 @@ input[type="email"]::placeholder {
     display: flex;
     align-items: baseline;
     flex-direction: row;
+    justify-content: center;
   }
   .social-footer {
     display: flex;
@@ -1970,8 +1971,6 @@ input[type="email"]::placeholder {
     text-transform: uppercase;
   }
   .container-footer {
-    margin-right: 120px;
-    margin-left: 0px;
   }
   .footer-title {
     font-family: "Roboto", sans-serif;
@@ -1995,6 +1994,8 @@ input[type="email"]::placeholder {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  .social-media-footer {
+  }
   .social-footer-icon {
     display: flex;
     gap: 16px;
@@ -2015,7 +2016,6 @@ input[type="email"]::placeholder {
     background-color: #31d0aa;
   }
   .email {
-    margin-left: 80px;
   }
   .form-footer {
     position: relative;

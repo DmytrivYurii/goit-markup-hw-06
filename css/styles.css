@@ -1766,6 +1766,7 @@ input[type="email"]::placeholder {
   .company-item {
     flex-basis: auto;
     width: 264px;
+    margin-right: 0px;
   }
   .company-subtitle {
     margin-bottom: 8px;
@@ -1778,6 +1779,8 @@ input[type="email"]::placeholder {
   .company-item-text {
     color: #434455;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }

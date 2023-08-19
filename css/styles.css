@@ -1760,10 +1760,12 @@ input[type="email"]::placeholder {
   .company-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
 
   .company-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: auto;
+    width: 264px;
   }
   .company-subtitle {
     margin-bottom: 8px;

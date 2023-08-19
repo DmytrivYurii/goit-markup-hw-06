@@ -1759,7 +1759,7 @@ input[type="email"]::placeholder {
   }
   .company-list {
     display: flex;
-    gap: 20px;
+    gap: 18px;
     justify-content: center;
   }
 

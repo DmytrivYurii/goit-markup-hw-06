@@ -1979,7 +1979,7 @@ input[type="email"]::placeholder {
     text-transform: uppercase;
   }
   .container-footer {
-    margin-right: 120px;
+    margin-right: 110px;
   }
   .footer-title {
     font-family: "Roboto", sans-serif;
@@ -2005,7 +2005,7 @@ input[type="email"]::placeholder {
   }
   .social-media-footer {
     margin-top: 40px;
-    margin-right: 80px;
+    margin-right: 75px;
   }
   .social-footer-icon {
     display: flex;
